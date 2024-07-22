@@ -1,0 +1,89 @@
+/* Login.css */
+/*.login-page {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://res.cloudinary.com/dsfgf7eb7/image/upload/v1718718836/Caregivers-vs-Caretakers_w8rd17.webp') no-repeat center center fixed;
+    background-size: cover;
+    filter: blur(8px);
+    z-index: -1;
+  }
+  
+  .login-container {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .login-card {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }*/
+  /* Login.css */
+.login-page {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://res.cloudinary.com/dsfgf7eb7/image/upload/v1718718836/Caregivers-vs-Caretakers_w8rd17.webp') no-repeat center center fixed;
+    background-size: cover;
+    filter: blur(8px);
+    z-index: -1;
+  }
+  
+  .login-container {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .login-card {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .login-card h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  /* Styles for the gradient button */
+.btn-submit {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(35, 35, 35, 1) 50%, rgba(0, 0, 0, 1) 100%);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-submit:hover {
+  background: linear-gradient(90deg, rgba(35, 35, 35, 1) 0%, rgba(0, 0, 0, 1) 50%, rgba(35, 35, 35, 1) 100%);
+}
+
+/* Styles for input focus border color */
+.form-control:focus {
+  border-color: black;
+  box-shadow: none;
+}
+
+  

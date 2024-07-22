@@ -1,0 +1,110 @@
+/* HomeUp.css */
+
+/*.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    margin: 0 1.75rem;
+    font-family: 'Sans-serif', Arial, sans-serif;
+  }
+  
+  .text-section {
+    width: 50%;
+    padding: 1rem;
+  }
+  
+  .text-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .text-section p {
+    color: #4A5568; 
+  }
+  
+  .image-section {
+    width: 50%;
+  }
+  
+  .image-section img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 0.5rem;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .text-section, .image-section {
+      width: 100%;
+    }
+  
+    .text-section {
+      margin-bottom: 1rem;
+    }
+  }*/
+  .home-page .home-container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .home-page .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://res.cloudinary.com/dsfgf7eb7/image/upload/v1718718836/Caregivers-vs-Caretakers_w8rd17.webp') no-repeat center center;
+    background-size: cover;
+    filter: blur(8px);
+    z-index: -1;
+  }
+  
+  .home-page .content {
+    position: relative;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .home-page .text-section {
+    margin-bottom: 2rem;
+  }
+  
+  .home-page .text-section h1 {
+    font-size: 2.5rem;
+  margin-bottom: 20px;
+  }
+  
+  .home-page .text-section p {
+  font-size: 1.2rem;
+  }
+
+  .home-page .text-section h2{
+    font-size: 1.75rem;
+    margin-bottom: 20px;
+  }
+  
+  .home-page .image-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+ 

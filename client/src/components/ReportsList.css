@@ -1,0 +1,38 @@
+/* Add this CSS to your stylesheet or in a CSS-in-JS solution */
+
+/* Add this CSS to your stylesheet */
+
+.reports-page {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.reports-page .background-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://res.cloudinary.com/dsfgf7eb7/image/upload/v1718718836/Caregivers-vs-Caretakers_w8rd17.webp');
+  background-size: cover;
+  background-position: center;
+  /* Ensure the container is fully covered by the image */
+}
+
+.reports-page .background-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  filter: blur(8px);
+  z-index: 1;
+  pointer-events: none; /* Ensure it doesn't interfere with clicking or other events */
+}
+
+.reports-page .content {
+  position: relative;
+  z-index: 2;
+  /* Optionally, you can add padding or margin here */
+}
